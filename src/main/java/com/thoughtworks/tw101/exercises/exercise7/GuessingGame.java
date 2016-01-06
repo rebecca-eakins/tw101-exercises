@@ -30,7 +30,7 @@ public class GuessingGame {
         finishUp();
     }
 
-    public void checkGuess(String guess){
+    private void checkGuess(String guess){
 
         int num = Integer.parseInt(guess);
 
